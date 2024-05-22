@@ -25,7 +25,7 @@ const Movielist = () => {
               onClick={() => handlePopup(movie)}
             >
               <img
-                className="rounded-t-lg w-full h-full object-cover hover:scale-105 transition-all"
+                className="rounded-t-lg w-full h-full object-cover hover:scale-90 transition-all duration-300 ease-in-out"
                 src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                 alt={movie.title}
               />

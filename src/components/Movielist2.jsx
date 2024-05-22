@@ -25,7 +25,7 @@ const Movielist = () => {
               onClick={() => handlePopup(movie)} // Handle click on movie div
             >
               <img
-                className="rounded-t-lg w-full h-full hover:scale-90 transition-all cursor-pointer"
+                className="rounded-t-lg w-full h-full hover:scale-90 transition-all ease-in-out duration-300 cursor-pointer"
                 src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                 alt=""
               />
