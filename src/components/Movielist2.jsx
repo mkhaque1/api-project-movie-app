@@ -16,7 +16,7 @@ const Movielist = () => {
     <div className="relative">
       {/* Background container that will get blurred */}
       <div className={`${showPopup ? "blur-sm" : ""}`}>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mx-20 my-5">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 lg:mx-20 sm:mx-10 my-5">
           {/* Map over movieList to render movie divs */}
           {movieList.slice(7, 13).map((movie) => (
             <div
@@ -25,7 +25,7 @@ const Movielist = () => {
               onClick={() => handlePopup(movie)} // Handle click on movie div
             >
               <img
-                className="rounded-t-lg w-full h-full hover:scale-150 transition-all cursor-pointer"
+                className="rounded-t-lg w-full h-full hover:scale-90 transition-all cursor-pointer"
                 src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                 alt=""
               />
@@ -52,7 +52,7 @@ const Movielist = () => {
                   {popupContent.title}
                 </h2>
                 <p className="text-zinc-200 text-sm">
-                  {popupContent.overview}...
+                  {popupContent.overview.split(" ").slice(0, 30).join(" ")}...
                   <br />
                   <span className=" font-semibold  text-zinc-700 capitalize">
                     Release Date:

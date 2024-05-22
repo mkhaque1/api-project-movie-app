@@ -52,7 +52,7 @@ const Movielist = () => {
                   {popupContent.title}
                 </h2>
                 <p className="text-zinc-200 text-sm">
-                  {popupContent.overview}...
+                  {popupContent.overview.split(" ").slice(0, 30).join(" ")}...
                   <br />
                   <span className=" font-semibold  text-zinc-700 capitalize">
                     Release Date:
