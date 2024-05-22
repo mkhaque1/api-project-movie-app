@@ -58,6 +58,7 @@ API calls in this project are managed using the `fetch` API, which is built into
 - API response data is then processed and stored in state variables using the `useState` hook.
 - Search functionality is implemented by dynamically updating the API endpoint URL based on user input.
 - Movie filtering is implemented by applying JavaScript array filtering functions to the fetched movie data.
+- Using `useContext` hook for providing data to all component usable.
 
 ## Contributing
 
