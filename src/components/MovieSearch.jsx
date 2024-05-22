@@ -12,7 +12,7 @@ const MovieSearch = () => {
 
   return (
     <div className="bg-zinc-800 p-5 flex justify-center items-center">
-      <form className="w-[50%] mx-auto" onSubmit={handleSearch}>
+      <form className="lg:w-[50%] sm:w-full mx-auto" onSubmit={handleSearch}>
         <label
           htmlFor="default-search"
           className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"

@@ -16,7 +16,7 @@ const Movielist = () => {
     <div className="relative">
       {/* Background container that will get blurred */}
       <div className={`${showPopup ? "blur-sm" : ""}`}>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mx-20 my-5">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 lg:mx-20 sm:mx-10 my-5">
           {/* Map over filteredMovies to render movie divs */}
           {filteredMovies.slice(0, 6).map((movie) => (
             <div

@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const Newmovie = (movie) => {
   return (
-    <div className=" mx-20">
+    <div className=" lg:mx-20">
       <h1 className=" text-2xl font-semibold uppercase text-center my-5">
         New Movies 2024
       </h1>
