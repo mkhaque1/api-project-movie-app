@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className=" w-full fixed z-10 bottom-0 bg-transparent backdrop-blur-lg h-20 lg:flex lg:justify-between lg:px-20 sm:px-10">
       <div className=" flex justify-center items-center">
-        <h1 className="inline-block bg-gradient-to-r from-sky-600 via-pink-500 to-indigo-400 text-black lg:px-4 lg:py-2 sm:px-2 sm:py-2 rounded-xl lg:inline sm:hidden text-7xl text-transparent lg:text-xl sm:text-sm font-bold uppercase">
+        <h1 className="inline-block bg-gradient-to-r from-sky-600 via-pink-500 to-indigo-400 lg:text-zinc-200 lg:px-4 lg:py-2 sm:px-2 sm:py-2 rounded-xl lg:inline sm:hidden text-transparent lg:text-xl sm:text-sm font-bold uppercase">
           Movie API Project
         </h1>
       </div>
