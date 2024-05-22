@@ -39,7 +39,7 @@ const Movielist = () => {
         <div className="fixed inset-0 flex items-center justify-center z-50">
           <div className="absolute inset-0 bg-black opacity-70"></div>
           <div className=" rounded-lg backdrop-blur-md relative z-10">
-            <div className="bg-zinc-400 lg:w-[50vw] min-[320px]:w-[50vw] p-8 rounded-lg lg:flex lg:flex-nowrap lg:justify-center lg:items-center min-[320px]:flex-wrap gap-5">
+            <div className="bg-zinc-400 lg:w-[50vw] sm:w-[75vw] p-8 rounded-lg lg:flex lg:flex-nowrap lg:justify-center lg:items-center min-[320px]:flex-wrap gap-5">
               <div className="w-1/2">
                 <img
                   className="min-[320px]:w-full mb-4"
