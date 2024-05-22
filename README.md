@@ -70,4 +70,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Feel free to customize the README file further based on your project's specific features and requirements!
+## Credit :
+
+Api credit : https://www.themoviedb.org/
